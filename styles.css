@@ -1,0 +1,23 @@
+.experience-item {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.experience-item h3 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.experience-item .company {
+    color: #34495e;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.experience-item .date {
+    color: #7f8c8d;
+    font-style: italic;
+    margin-bottom: 1rem;
+} 

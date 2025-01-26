@@ -1,0 +1,229 @@
+.experience-container {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.experience-container h1 {
+  text-align: center;
+  color: #8e44ad;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.experience-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+}
+
+.experience-header h3 {
+  color: #8e44ad;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.experience-header h4 {
+  color: #2d3436;
+  margin: 0.5rem 0;
+}
+
+.period {
+  color: #636e72;
+  font-size: 0.9rem;
+}
+
+.responsibilities {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 1.5rem 0;
+}
+
+.responsibilities li {
+  color: #2d3436;
+  margin-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  position: relative;
+  line-height: 1.6;
+}
+
+.responsibilities li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: #8e44ad;
+}
+
+.experience-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.visit-website-btn {
+  padding: 0.6rem 1.2rem;
+  border-radius: 25px;
+  background-color: transparent;
+  border: 2px solid #8e44ad;
+  color: #8e44ad;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.visit-website-btn:hover {
+  background-color: #8e44ad;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.tech-used {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.tech-badge {
+  background: #f8f9fa;
+  color: #2d3436;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  border: 1px solid #e9ecef;
+}
+
+.company-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.company-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.company-info div {
+  flex: 1;
+}
+
+.company-info h4 a {
+  color: #2d3436;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.company-info h4 a:hover {
+  color: #8e44ad;
+}
+
+.meta-info {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 0.25rem;
+}
+
+.meta-info .period,
+.meta-info .location {
+  color: #636e72;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.meta-info .location {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.company-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0.5rem 0;
+}
+
+.company-title h4 {
+  margin: 0;
+  color: #2d3436;
+}
+
+.company-links {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.website-link,
+.app-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: #8e44ad;
+  background-color: #f8f5fb;
+  border: 1px solid rgba(142, 68, 173, 0.2);
+  transition: all 0.3s ease;
+}
+
+.website-link:hover,
+.app-link:hover {
+  background-color: #8e44ad;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.app-link img {
+  width: 16px;
+  height: 16px;
+}
+
+@media (max-width: 768px) {
+  .meta-info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .experience-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tech-used {
+    margin-bottom: 1rem;
+  }
+
+  .company-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .company-links {
+    flex-wrap: wrap;
+  }
+}
