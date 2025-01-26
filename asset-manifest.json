@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.633b20b6.css",
-    "main.js": "/static/js/main.63b0b5d3.js",
-    "static/js/488.f1ad4097.chunk.js": "/static/js/488.f1ad4097.chunk.js",
+    "main.js": "/static/js/main.a2aa94dd.js",
+    "static/js/488.e8837787.chunk.js": "/static/js/488.e8837787.chunk.js",
     "static/media/profile.png": "/static/media/profile.c3e1bec496f8f7d0120d.png",
     "static/media/hufs-logo.png": "/static/media/hufs-logo.8de24d5fefbd9033af1a.png",
     "static/media/abc.png": "/static/media/abc.b8725a432427670b2899.png",
@@ -10,11 +10,11 @@
     "static/media/android.png": "/static/media/android.f965e5734bbddcc43be2.png",
     "index.html": "/index.html",
     "main.633b20b6.css.map": "/static/css/main.633b20b6.css.map",
-    "main.63b0b5d3.js.map": "/static/js/main.63b0b5d3.js.map",
-    "488.f1ad4097.chunk.js.map": "/static/js/488.f1ad4097.chunk.js.map"
+    "main.a2aa94dd.js.map": "/static/js/main.a2aa94dd.js.map",
+    "488.e8837787.chunk.js.map": "/static/js/488.e8837787.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.633b20b6.css",
-    "static/js/main.63b0b5d3.js"
+    "static/js/main.a2aa94dd.js"
   ]
 }
