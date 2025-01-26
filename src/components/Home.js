@@ -44,7 +44,7 @@ function Home() {
           <div className="profile-photo">
             <img src={profilePhoto} alt="Goeun Son" />
           </div>
-          <h1>Hi, I'm Goeun Son</h1>
+          <h1>Hi, I'm Goeun <span className="wave">👋</span></h1>
           <h2>
              <span className="rotating-text">
               {titles.map((title, index) => (
